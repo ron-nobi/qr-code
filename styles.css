@@ -1,0 +1,68 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+body,
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.card-container {
+    max-width: 20rem;
+    padding: 20px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    width: 20rem;
+    border-radius: 15px;
+}
+
+h1, 
+p {
+    text-align: center;
+    margin: 0 4px;
+    overflow-wrap: break-word;
+}
+
+h1 {
+    color: hsl(218, 44%, 22%);
+
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* ATTRIBUTION */
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
